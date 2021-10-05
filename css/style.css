@@ -3,3 +3,56 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.box{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.scarpa{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+span{
+    position: absolute;
+    color: yellow;
+    text-transform: uppercase;
+    padding: 5px;
+    text-align: center;
+    font-size: 47px;
+    font-weight: 1000;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.scritta{
+    position: absolute;
+    color: green;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+    font-size: 47px;
+    font-weight: 1000;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+
+
+#rosso{
+    background-color: red;
+}
+
+#verde{
+    background-color: green;
+}
+
+#giallo{
+    background-color: yellow;
+}
