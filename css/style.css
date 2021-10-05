@@ -17,6 +17,7 @@
     transform: translate(-50%,-50%);
 }
 
+
 span{
     position: absolute;
     color: yellow;
@@ -55,4 +56,32 @@ span{
 
 #giallo{
     background-color: yellow;
+}
+.menu{
+    height: 80px;
+    line-height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+  
+.menu ul {
+    list-style: none;
+    background-color: red;
+
+}
+  
+.menu ul li {
+    display: inline-block;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    border-radius: 100%;
+    background-color: white;
+}
+  
+.menu ul li a{
+    text-decoration: none;
+    padding: 0 20px;
 }
